@@ -15,7 +15,7 @@
                 this.responsedata = await (await fetch('https://randomizer-service-mathieudj.cloud.okteto.net/car/ferrari/')).json();
             }
         }">
-            <p>Car1: <strong x-text="responsedata.model">Placeholder Model</strong></p>
+            <p>Car1: <strong x-text="responsedata">Placeholder Model</strong></p>
             <button x-on:click="getData">Call method</button>
         </div>
     </div>
