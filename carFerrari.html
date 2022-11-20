@@ -10,12 +10,12 @@
   
     <div class="main">
         <div class="shuffle" x-data="{
-            responsedata: null,
+            responsedata: {},
             async getData() {
-                this.responsedata = await (await fetch('https://randomizer-service-mathieudj.cloud.okteto.net/car/ferrari')).json();
+                this.responsedata = await (await fetch('https://randomizer-service-mathieudj.cloud.okteto.net/car/ferrari/')).json();
             }
-        }" x-init="getData">
-            <p>Song: <strong x-text="responsedata.model">Placeholder Model</strong></p>
+        }">
+            <p>Car1: <strong x-text="responsedata.model">Placeholder Model</strong></p>
     
         </div>
     </div>
