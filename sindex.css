@@ -1,0 +1,48 @@
+/* Definieer de algemene stijl voor de body sectie */
+body {
+    background-color: #f0f8ff; /* lichtblauwe achtergrond */
+    font-family: Arial, sans-serif; /* standaard lettertype */
+    margin: 0; /* geen marges rondom de pagina */
+    padding: 0; /* geen padding rondom de pagina */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Definieer de stijl voor de koptekst */
+h1 {
+    color: #0047ab; /* donkerblauwe tekst */
+    font-size: 2.5em; /* grotere lettergrootte */
+    margin-top: 30px; /* ruimte tussen koptekst en voorgaande element */
+    text-align: center;
+}
+
+/* Definieer de stijl voor de paragraaf */
+p {
+    color: #333; /* standaard zwarte tekst */
+    font-size: 1.2em; /* iets grotere lettergrootte */
+    line-height: 1.5; /* iets meer ruimte tussen de regels */
+    margin-top: 20px; /* ruimte tussen paragraaf en voorgaande element */
+    margin-bottom: 20px; /* ruimte tussen paragraaf en volgende element */
+    max-width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Definieer de stijl voor de hyperlinks */
+a {
+    color: #0081c2; /* blauwe hyperlinkkleur */
+    text-decoration: none; /* geen onderstreping */
+    font-weight: bold; /* vetgedrukte tekst */
+}
+
+#links {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Definieer de stijl voor de actieve hyperlink */
+a:hover {
+    color: #0072b8; /* donkerblauwe hyperlinkkleur */
+}
