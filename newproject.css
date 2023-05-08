@@ -1,0 +1,40 @@
+/* algemene stijl */
+body {
+    background-color: lightgray;
+}
+
+.navbar {
+  background-color: #111125;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.dropdown-item {
+  color: #e6e6e6;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    height: 300px;
+}
+
+.card {
+  height: 900px;
+}
+
+
+
+
+#sticky-footer {
+  background-color: #111125;
+  color: white;
+}
+
+
+
